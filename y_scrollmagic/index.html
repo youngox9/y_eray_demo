@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ScrollMagic Test</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ScrollMagic Test</h1>
+      <div class="scrollmagic-container test" total="1000">
+        <div class="sence">
+          <!-- layer-1 -->
+          <img
+            class="layer layer-1"
+            to="[{
+            delay: 0,
+            duration: 10,
+            transform: 'rotate(20deg)'
+          },{
+            delay:0,
+            duration: 10,
+            transform: 'rotate(-20deg)'
+          },{
+            delay:0,
+            duration: 10,
+            transform: 'rotate(20deg)'
+          }]"
+            src="https://loremflickr.com/800/240"
+          />
+          <!-- layer-2 -->
+          <img
+            class="layer layer-2"
+            to="[{
+            delay: 0,
+            duration: 20,
+            top:'60%',
+            transform: 'rotate(125deg)'
+          },{
+            delay: 10,
+            duration: 20,
+            transform: 'rotate(125deg) scale(5)'
+          }]"
+            src="https://loremflickr.com/400/240"
+          />
+          <!-- layer-3 -->
+          <img
+            class="layer layer-3"
+            to="[{
+              duration: 10,
+              top:'60%',
+              transform: 'rotate(125deg)'
+            },{
+    
+              duration: 10,
+              transform: 'rotate(125deg) scale(5)'
+            },{
+      
+              duration: 10,
+              transform: 'rotate(-125deg) scale(1)',
+            },
+            {
+              duration: 70,
+              borderRadius: '100%'
+            }]"
+            src="https://loremflickr.com/200/240"
+          />
+        </div>
+      </div>
+      <div class="content">
+        <img class="kv" src="https://loremflickr.com/1200/2400" />
+      </div>
+      <div class="scrollmagic-container test" total="1000">
+        <div class="sence">
+          <!-- layer-1 -->
+          <img
+            class="layer layer-1"
+            to="[{
+            delay: 0,
+            duration: 10,
+            transform: 'rotate(20deg)'
+          },{
+            delay:0,
+            duration: 10,
+            transform: 'rotate(-20deg)'
+          },{
+            delay:0,
+            duration: 10,
+            transform: 'rotate(20deg)'
+          }]"
+            src="https://loremflickr.com/800/240"
+          />
+          <!-- layer-2 -->
+          <img
+            class="layer layer-2"
+            to="[{
+            delay: 0,
+            duration: 20,
+            top:'60%',
+            transform: 'rotate(125deg)'
+          },{
+            delay: 10,
+            duration: 20,
+            transform: 'rotate(125deg) scale(5)'
+          }]"
+            src="https://loremflickr.com/400/240"
+          />
+          <!-- layer-3 -->
+          <img
+            class="layer layer-3"
+            to="[{
+              duration: 10,
+              top:'60%',
+              transform: 'rotate(125deg)'
+            },{
+    
+              duration: 10,
+              transform: 'rotate(125deg) scale(5)'
+            },{
+      
+              duration: 10,
+              transform: 'rotate(-125deg) scale(1)',
+            },
+            {
+              duration: 70,
+              borderRadius: '100%'
+            }]"
+            src="https://loremflickr.com/200/240"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <!-- test -->
+  <script type="text/javascript" src="js/index.js"></script>
+</html>

@@ -1,0 +1,72 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css");
+html,
+body {
+  color: white;
+  background-color: #292929;
+}
+
+.test {
+  height: 500vh;
+  position: relative;
+  margin: 1000px 0;
+}
+
+.test .sence {
+  position: relative;
+}
+
+.test .sence:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://loremflickr.com/800/240") white center/cover no-repeat;
+  opacity: 0.1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+.scrollmagic-container {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.scrollmagic-container .sence {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.scrollmagic-container .layer {
+  position: absolute;
+  width: 120px;
+  z-index: 2;
+}
+
+.scrollmagic-container .layer.layer-1 {
+  top: 50%;
+  left: 00%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.scrollmagic-container .layer.layer-2 {
+  top: 20%;
+  left: 40%;
+}
+
+.scrollmagic-container .layer.layer-3 {
+  top: 40%;
+  left: 10%;
+}
+
+.kv {
+  display: block;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

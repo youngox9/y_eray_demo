@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cropper Demo</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <a href="https://fengyuanchen.github.io/cropperjs/" target="_blank"
+          >Cropperjs 官方DEMO</a
+        >
+        <h1 class="mb-5">Cropper Demo</h1>
+
+        <div class="row gx-5">
+          <div class="col col-12 mb-3">
+            <form>
+              <div class="form-group">
+                <!-- <label for="file-1">請選擇圖片</label> -->
+                <label class="btn btn-primary" for="file-1">請選擇圖片</label>
+                <input
+                  type="file"
+                  class="form-control-file"
+                  id="file-1"
+                  accept="image/*"
+                  style="visibility: hidden"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="col col-12 mb-3">
+            <div class="crop-container">
+              <img src="" id="preview" />
+            </div>
+          </div>
+          <div class="col col-12 mb-3">
+            <button class="btn btn-primary" id="crop-btn">確認裁切</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropper/4.1.0/cropper.js"></script>
+
+  <!-- test -->
+  <script type="text/javascript" src="js/index.js"></script>
+</html>

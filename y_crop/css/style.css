@@ -1,0 +1,20 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0-beta3/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/cropper/4.1.0/cropper.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+html,
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box !important;
+     -moz-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+.crop-container {
+  width: 480px;
+  height: 480px;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
