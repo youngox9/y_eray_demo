@@ -7,14 +7,48 @@ body {
 }
 
 * {
-  -webkit-box-sizing: border-box !important;
-     -moz-box-sizing: border-box !important;
-          box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+a {
+  display: block;
 }
 
 .crop-container {
-  width: 480px;
-  height: 480px;
+  width: 100%;
   background-color: black;
+  aspect-ratio: 12/6;
+  position: relative;
 }
-/*# sourceMappingURL=style.css.map */
+.crop-container .crop-inner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.preview {
+  display: block;
+  width: 100%;
+}
+
+.inline-btns {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: end;
+      align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.inline-btns > * {
+  margin-right: 12px;
+}
+
+.file-btn input[type=file] {
+  display: none;
+}
+
+.ml-auto {
+  margin-left: auto;
+}/*# sourceMappingURL=style.css.map */

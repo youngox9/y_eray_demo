@@ -1,0 +1,30 @@
+{ 
+  "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "ie 10"
+    ],
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css"
+        }
+    ],
+    // "editor.formatOnSave": true, 整理功能
+//    整理功能
+    "[html]": {
+        "editor.formatOnSave": true,
+    },
+    "[scss]": {
+        "editor.formatOnSave": true,
+    },  
+    
+    "[javascript]": {
+        "editor.formatOnSave": true,
+    },
+  }
